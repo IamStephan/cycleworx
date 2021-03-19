@@ -1,4 +1,5 @@
 import React, { useState } from "react"
+import { Link } from "gatsby"
 
 const Navbar = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false)
@@ -6,10 +7,10 @@ const Navbar = () => {
   return (
     <nav className="z-50 px-4 py-5 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8">
       <div className="relative flex items-center justify-between">
-        <a
-          href="/"
-          aria-label="Company"
-          title="Company"
+        <Link
+          to="/"
+          aria-label="Cycleworx Langebaan"
+          title="Cycleworx Langebaan"
           className="inline-flex items-center"
         >
           <svg
@@ -30,27 +31,31 @@ const Navbar = () => {
           <span className="ml-2 text-xl font-bold tracking-wide text-gray-800">
             Cycleworx Langebaan
           </span>
-        </a>
+        </Link>
         <ul className="items-center hidden space-x-8 lg:flex">
           <li>
-            <a
-              href="/"
-              aria-label="Product pricing"
-              title="Product pricing"
-              className="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400"
-            >
-              About us
-            </a>
-          </li>
-          <li>
-            <a
-              href="/"
+            <Link
+              to="/about"
+              activeClassName="text-deep-purple-accent-400"
               aria-label="About us"
               title="About us"
               className="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400"
             >
+              About us
+            </Link>
+            {/* <div className="h-1 ml-auto duration-300 origin-left transform scale-x-100 rounded-full bg-deep-purple-accent-400" /> */}
+          </li>
+          <li>
+            <Link
+              to="/contact"
+              activeClassName="text-deep-purple-accent-400"
+              aria-label="Contact us"
+              title="Contact us"
+              className="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400"
+            >
               Contact us
-            </a>
+            </Link>
+            {/* <div className="h-1 ml-auto duration-300 origin-left transform scale-x-100 rounded-full bg-deep-purple-accent-400" /> */}
           </li>
         </ul>
         <div className="lg:hidden">
@@ -80,10 +85,10 @@ const Navbar = () => {
               <div className="p-5 bg-white border rounded shadow-sm">
                 <div className="flex items-center justify-between mb-4">
                   <div>
-                    <a
-                      href="/"
-                      aria-label="Company"
-                      title="Company"
+                    <Link
+                      to="/"
+                      aria-label="Cycleworx Langebaan"
+                      title="Cycleworx Langebaan"
                       className="inline-flex items-center"
                     >
                       <svg
@@ -104,7 +109,7 @@ const Navbar = () => {
                       <span className="ml-2 text-xl font-bold tracking-wide text-gray-800">
                         Cycleworx Langebaan
                       </span>
-                    </a>
+                    </Link>
                   </div>
                   <div>
                     <button
@@ -125,34 +130,26 @@ const Navbar = () => {
                 <nav>
                   <ul className="space-y-4">
                     <li>
-                      <a
-                        href="/"
-                        aria-label="Our product"
-                        title="Our product"
-                        className="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400"
-                      >
-                        Service
-                      </a>
-                    </li>
-                    <li>
-                      <a
-                        href="/"
-                        aria-label="Product pricing"
-                        title="Product pricing"
-                        className="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400"
-                      >
-                        About us
-                      </a>
-                    </li>
-                    <li>
-                      <a
-                        href="/"
+                      <Link
+                        to="/about"
+                        activeClassName="text-deep-purple-accent-400"
                         aria-label="About us"
                         title="About us"
                         className="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400"
                       >
+                        About us
+                      </Link>
+                    </li>
+                    <li>
+                      <Link
+                        to="/contact"
+                        activeClassName="text-deep-purple-accent-400"
+                        aria-label="Contact us"
+                        title="Contact us"
+                        className="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400"
+                      >
                         Contact us
-                      </a>
+                      </Link>
                     </li>
                   </ul>
                 </nav>
