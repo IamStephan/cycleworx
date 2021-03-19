@@ -58,9 +58,9 @@ const HeroSection = () => {
               bicycle's next best home
             </h2>
             <p className="text-base text-gray-300 md:text-lg">
-              Cycleworx Langebaan provides you and your bicycle with first class
+              Cycleworx Langebaan provides you and your bicycle with first-class
               services and products that will make you want to come back for
-              more
+              more.
             </p>
           </div>
           <div className="flex items-center sm:justify-center">
