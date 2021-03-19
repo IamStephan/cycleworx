@@ -316,7 +316,7 @@ module.exports = {
         30: ".3",
       },
       boxShadow: {
-        outline: "0 0 0 3px rgba(101, 31, 255, 0.4)",
+        outline: "0 0 0 3px rgba(56, 142, 60, 0.75)",
       },
     },
   },
