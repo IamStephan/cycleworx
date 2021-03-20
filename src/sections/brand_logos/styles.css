@@ -1,0 +1,19 @@
+.imgContainer {
+  /* position: relative; */
+  display: flex;
+  flex-direction: row;
+}
+
+.imgSet {
+  animation: rotaingImageSet 20s linear infinite;
+}
+
+@keyframes rotaingImageSet {
+  0% {
+    transform: translateX(0%);
+  }
+
+  100% {
+    transform: translateX(-100%);
+  }
+}
