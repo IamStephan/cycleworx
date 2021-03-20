@@ -71,7 +71,7 @@ const BrandLogosSection = () => {
        * gives me more control over device sizes
        * and not over loading with to many images
        */}
-      <div className="flex flex-row w-full overflow-hidden flex-nowrap">
+      <div className="flex flex-row w-full overflow-hidden flex-nowrap logosContainer">
         <ImageSet />
         <ImageSet />
       </div>

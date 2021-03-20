@@ -8,6 +8,14 @@
   animation: rotaingImageSet 20s linear infinite;
 }
 
+.imgSet img {
+  filter: grayscale(1);
+}
+
+.logosContainer:hover .imgSet {
+  animation-play-state: paused;
+}
+
 @keyframes rotaingImageSet {
   0% {
     transform: translateX(0%);
