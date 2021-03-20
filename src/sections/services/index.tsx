@@ -1,369 +1,187 @@
 import React from "react"
 
+const CheckMark: React.FC = () => {
+  return (
+    <svg
+      xmlns="http://www.w3.org/2000/svg"
+      viewBox="0 0 24 24"
+      className="w-5 h-5 mt-px text-green-800"
+    >
+      <path fill="none" d="M0 0h24v24H0z" />
+      <path
+        fill="currentColor"
+        d="M11.602 13.76l1.412 1.412 8.466-8.466 1.414 1.414-9.88 9.88-6.364-6.364 1.414-1.414 2.125 2.125 1.413 1.412zm.002-2.828l4.952-4.953 1.41 1.41-4.952 4.953-1.41-1.41zm-2.827 5.655L7.364 18 1 11.636l1.414-1.414 1.413 1.413-.001.001 4.951 4.951z"
+      />
+    </svg>
+  )
+}
+
 const ServicesSection = () => {
   return (
     <div className="px-4 py-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-20">
       <div className="flex flex-col mb-6 lg:flex-row md:mb-10">
         <div className="lg:w-1/2">
           <h2 className="max-w-md mb-6 font-sans text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl sm:leading-none xl:max-w-lg">
-            To conquer the space you must trust.
+            Treat your bike to next level services.
           </h2>
         </div>
-        <div className="lg:w-1/2">
-          <p className="text-base text-gray-700 md:text-lg">
-            For those who have seen the Earth from space, and for the hundreds
-            and perhaps thousands more who will, the experience most certainly
-            changes your perspective.
-          </p>
-        </div>
+        <div className="lg:w-1/2" />
       </div>
       <div className="grid gap-8 row-gap-10 sm:grid-cols-2 lg:grid-cols-4">
         <div>
-          <div className="flex items-center justify-center w-16 h-16 mb-4 rounded-full bg-indigo-50">
+          <div className="flex items-center justify-center w-16 h-16 mb-4 rounded-full bg-green-50">
             <svg
-              className="w-7 h-7 text-deep-purple-accent-400"
-              strokeLinecap="round"
-              strokeWidth="2"
+              xmlns="http://www.w3.org/2000/svg"
               viewBox="0 0 24 24"
+              className="text-green-900 w-7 h-7"
             >
-              <circle cx="11" cy="13" fill="none" r="9" stroke="currentColor" />
+              <path fill="none" d="M0 0h24v24H0z" />
               <path
-                d=" M21.955,18.005c1.089,2.145,1.378,3.816,0.622,4.572C20.92,24.234,14.799,20.799,9,15S-0.234,3.08,1.423,1.423 C2.18,0.666,3.853,0.956,6,2.047"
-                stroke="currentColor"
-                fill="none"
+                fill="currentColor"
+                d="M15.199 9.945a2.6 2.6 0 0 1-.79-1.551l-.403-3.083-2.73 1.486a2.6 2.6 0 0 1-1.72.273L6.5 6.5l.57 3.056a2.6 2.6 0 0 1-.273 1.72l-1.486 2.73 3.083.403a2.6 2.6 0 0 1 1.55.79l2.138 2.257 1.336-2.807a2.6 2.6 0 0 1 1.23-1.231l2.808-1.336-2.257-2.137zm.025 5.563l-2.213 4.65a.6.6 0 0 1-.977.155l-3.542-3.739a.6.6 0 0 0-.357-.182l-5.107-.668a.6.6 0 0 1-.449-.881l2.462-4.524a.6.6 0 0 0 .062-.396L4.16 4.86a.6.6 0 0 1 .7-.7l5.063.943a.6.6 0 0 0 .396-.062l4.524-2.462a.6.6 0 0 1 .881.45l.668 5.106a.6.6 0 0 0 .182.357l3.739 3.542a.6.6 0 0 1-.155.977l-4.65 2.213a.6.6 0 0 0-.284.284zm.797 1.927l1.414-1.414 4.243 4.242-1.415 1.415-4.242-4.243z"
               />
             </svg>
           </div>
-          <h6 className="mb-2 font-semibold leading-5">Our planet</h6>
+          <h6 className="mb-2 font-semibold leading-5">Full Services</h6>
           <p className="mb-3 text-sm text-gray-900">
-            We choose to go to the moon, not because it's easy, but because it's
-            hard.
+            With us your bike can ride as smooth as the day you bought it.
           </p>
           <ul className="mb-4 -ml-1 space-y-2">
             <li className="flex items-start">
               <span className="mr-1">
-                <svg
-                  className="w-5 h-5 mt-px text-deep-purple-accent-400"
-                  stroke="currentColor"
-                  viewBox="0 0 52 52"
-                >
-                  <polygon
-                    strokeWidth="4"
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                    fill="none"
-                    points="29 13 14 29 25 29 23 39 38 23 27 23"
-                  />
-                </svg>
+                <CheckMark />
               </span>
-              Earth
+              Hard-tail
             </li>
             <li className="flex items-start">
               <span className="mr-1">
-                <svg
-                  className="w-5 h-5 mt-px text-deep-purple-accent-400"
-                  stroke="currentColor"
-                  viewBox="0 0 52 52"
-                >
-                  <polygon
-                    strokeWidth="4"
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                    fill="none"
-                    points="29 13 14 29 25 29 23 39 38 23 27 23"
-                  />
-                </svg>
+                <CheckMark />
               </span>
-              Space
+              Dual Sus
             </li>
             <li className="flex items-start">
               <span className="mr-1">
-                <svg
-                  className="w-5 h-5 mt-px text-deep-purple-accent-400"
-                  stroke="currentColor"
-                  viewBox="0 0 52 52"
-                >
-                  <polygon
-                    strokeWidth="4"
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                    fill="none"
-                    points="29 13 14 29 25 29 23 39 38 23 27 23"
-                  />
-                </svg>
+                <CheckMark />
               </span>
-              Humans
+              Kiddies Bikes
             </li>
           </ul>
         </div>
         <div>
-          <div className="flex items-center justify-center w-16 h-16 mb-4 rounded-full bg-indigo-50">
+          <div className="flex items-center justify-center w-16 h-16 mb-4 rounded-full bg-green-50">
             <svg
-              className="w-7 h-7 text-deep-purple-accent-400"
+              xmlns="http://www.w3.org/2000/svg"
               viewBox="0 0 24 24"
-              strokeLinecap="round"
+              className="text-green-900 w-7 h-7"
             >
+              <path fill="none" d="M0 0h24v24H0z" />
               <path
-                d="M2,10C2,5.029,6.47,1,12,1c5.379,0,10,4.029,10,9S15.712,23,12,23C8.212,23,2,14.971,2,10Z"
-                fill="none"
-                strokeWidth="2"
-                stroke="currentColor"
-              />
-              <path
-                d="M5,9a6.529,6.529,0,0,1,4.393,1.607C10.705,11.92,10,15,10,15a6.59,6.59,0,0,1-3.436-1.564C5.022,11.894,5,9,5,9Z"
-                fill="none"
-                strokeWidth="1.5"
-                stroke="currentColor"
-              />
-              <path
-                d="M19,9a6.523,6.523,0,0,0-4.392,1.608C13.3,11.92,14,15,14,15a6.59,6.59,0,0,0,3.436-1.564C18.978,11.894,19,9,19,9Z"
-                fill="none"
-                strokeWidth="1.5"
-                stroke="currentColor"
+                fill="currentColor"
+                d="M20 3l2 4v13a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V7.004L4 3h16zm0 6H4v10h16V9zm-8 1l4 4h-3v4h-2v-4H8l4-4zm6.764-5H5.236l-.999 2h15.527l-1-2z"
               />
             </svg>
           </div>
-          <h6 className="mb-2 font-semibold leading-5">Another life</h6>
+          <h6 className="mb-2 font-semibold leading-5">Bike assemblies</h6>
           <p className="mb-3 text-sm text-gray-900">
-            There can be no thought of finishing for "aiming for the stars".
+            We take the hastle away and assemble your bike as it's meant to be.
           </p>
           <ul className="mb-4 -ml-1 space-y-2">
             <li className="flex items-start">
               <span className="mr-1">
-                <svg
-                  className="w-5 h-5 mt-px text-deep-purple-accent-400"
-                  stroke="currentColor"
-                  viewBox="0 0 52 52"
-                >
-                  <polygon
-                    strokeWidth="4"
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                    fill="none"
-                    points="29 13 14 29 25 29 23 39 38 23 27 23"
-                  />
-                </svg>
+                <CheckMark />
               </span>
-              Life
+              Packaging
             </li>
             <li className="flex items-start">
               <span className="mr-1">
-                <svg
-                  className="w-5 h-5 mt-px text-deep-purple-accent-400"
-                  stroke="currentColor"
-                  viewBox="0 0 52 52"
-                >
-                  <polygon
-                    strokeWidth="4"
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                    fill="none"
-                    points="29 13 14 29 25 29 23 39 38 23 27 23"
-                  />
-                </svg>
+                <CheckMark />
               </span>
-              Aliens
+              Assembling
             </li>
             <li className="flex items-start">
               <span className="mr-1">
-                <svg
-                  className="w-5 h-5 mt-px text-deep-purple-accent-400"
-                  stroke="currentColor"
-                  viewBox="0 0 52 52"
-                >
-                  <polygon
-                    strokeWidth="4"
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                    fill="none"
-                    points="29 13 14 29 25 29 23 39 38 23 27 23"
-                  />
-                </svg>
+                <CheckMark />
               </span>
-              Shrek
+              New Builds
             </li>
           </ul>
         </div>
         <div>
-          <div className="flex items-center justify-center w-16 h-16 mb-4 rounded-full bg-indigo-50">
+          <div className="flex items-center justify-center w-16 h-16 mb-4 rounded-full bg-green-50">
             <svg
-              className="w-7 h-7 text-deep-purple-accent-400"
-              strokeLinecap="round"
-              strokeWidth="2"
+              xmlns="http://www.w3.org/2000/svg"
               viewBox="0 0 24 24"
+              className="text-green-900 w-7 h-7"
             >
+              <path fill="none" d="M0 0h24v24H0z" />
               <path
-                d="M8.291,18.709,4.182,22.818c-.419.419-1.43.086-2.258-.742s-1.161-1.839-.742-2.258l4.11-4.11"
-                fill="none"
-                stroke="currentColor"
-              />
-              <ellipse
-                cx="19.078"
-                cy="4.922"
-                fill="none"
-                rx="2.5"
-                ry="4.95"
-                stroke="currentColor"
-                transform="translate(2.107 14.932) rotate(-45)"
-              />
-              <path
-                d="M9.185,9.815,5.3,13.7c-.7.7-.143,2.382,1.238,3.762S9.6,19.4,10.3,18.7l3.885-3.885"
-                fill="none"
-                stroke="currentColor"
-              />
-              <path
-                d="M15.578,1.422,9.422,7.578c-.976.976-.2,3.335,1.732,5.268s4.292,2.708,5.268,1.732l6.156-6.156"
-                fill="none"
-                stroke="currentColor"
+                fill="currentColor"
+                d="M16.33 13.5A6.988 6.988 0 0 0 19 8h2a8.987 8.987 0 0 1-3.662 7.246l2.528 4.378a2 2 0 0 1-.732 2.732l-3.527-6.108A8.97 8.97 0 0 1 12 17a8.97 8.97 0 0 1-3.607-.752l-3.527 6.108a2 2 0 0 1-.732-2.732l5.063-8.77A4.002 4.002 0 0 1 11 4.126V2h2v2.126a4.002 4.002 0 0 1 1.803 6.728L16.33 13.5zM14.6 14.502l-1.528-2.647a4.004 4.004 0 0 1-2.142 0l-1.528 2.647c.804.321 1.68.498 2.599.498.918 0 1.795-.177 2.599-.498zM12 10a2 2 0 1 0 0-4 2 2 0 0 0 0 4z"
               />
             </svg>
           </div>
-          <h6 className="mb-2 font-semibold leading-5">Explore space</h6>
+          <h6 className="mb-2 font-semibold leading-5">Adjustments</h6>
           <p className="mb-3 text-sm text-gray-900">
-            We are all connected to the universe atomically, strong bonds.
+            Let us fine-tune your bicycle to perfection for a smooth and joyful
+            ride.
           </p>
           <ul className="mb-4 -ml-1 space-y-2">
             <li className="flex items-start">
               <span className="mr-1">
-                <svg
-                  className="w-5 h-5 mt-px text-deep-purple-accent-400"
-                  stroke="currentColor"
-                  viewBox="0 0 52 52"
-                >
-                  <polygon
-                    strokeWidth="4"
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                    fill="none"
-                    points="29 13 14 29 25 29 23 39 38 23 27 23"
-                  />
-                </svg>
+                <CheckMark />
               </span>
-              Infinity
+              Brakes
             </li>
             <li className="flex items-start">
               <span className="mr-1">
-                <svg
-                  className="w-5 h-5 mt-px text-deep-purple-accent-400"
-                  stroke="currentColor"
-                  viewBox="0 0 52 52"
-                >
-                  <polygon
-                    strokeWidth="4"
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                    fill="none"
-                    points="29 13 14 29 25 29 23 39 38 23 27 23"
-                  />
-                </svg>
+                <CheckMark />
               </span>
-              Stars
+              Gears
             </li>
             <li className="flex items-start">
               <span className="mr-1">
-                <svg
-                  className="w-5 h-5 mt-px text-deep-purple-accent-400"
-                  stroke="currentColor"
-                  viewBox="0 0 52 52"
-                >
-                  <polygon
-                    strokeWidth="4"
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                    fill="none"
-                    points="29 13 14 29 25 29 23 39 38 23 27 23"
-                  />
-                </svg>
+                <CheckMark />
               </span>
-              Black Holes
+              Wheel Truing
             </li>
           </ul>
         </div>
         <div>
-          <div className="flex items-center justify-center w-16 h-16 mb-4 rounded-full bg-indigo-50">
+          <div className="flex items-center justify-center w-16 h-16 mb-4 rounded-full bg-green-50">
             <svg
-              className="w-7 h-7 text-deep-purple-accent-400"
-              strokeLinecap="round"
-              strokeWidth="2"
+              xmlns="http://www.w3.org/2000/svg"
               viewBox="0 0 24 24"
+              className="text-green-900 w-7 h-7"
             >
+              <path fill="none" d="M0 0h24v24H0z" />
               <path
-                d="M8,13l3,3,9.379-9.379a2.122,2.122,0,0,0,0-3h0a2.122,2.122,0,0,0-3,0Z"
-                fill="none"
-                stroke="currentColor"
+                fill="currentColor"
+                d="M5.33 3.271a3.5 3.5 0 0 1 4.254 4.963l10.709 10.71-1.414 1.414-10.71-10.71a3.502 3.502 0 0 1-4.962-4.255L5.444 7.63a1.5 1.5 0 1 0 2.121-2.121L5.329 3.27zm10.367 1.884l3.182-1.768 1.414 1.414-1.768 3.182-1.768.354-2.12 2.121-1.415-1.414 2.121-2.121.354-1.768zm-6.718 8.132l1.414 1.414-5.303 5.303a1 1 0 0 1-1.492-1.327l.078-.087 5.303-5.303z"
               />
-              <polyline
-                fill="none"
-                points="10 11 10 6 6 2 3 5 7 9"
-                stroke="currentColor"
-              />
-              <polyline
-                fill="none"
-                points="15 12 15 17 19 21 22 18 18 14"
-                stroke="currentColor"
-              />
-              <path d="M8,23a7,7,0,0,1-7-7" fill="none" stroke="currentColor" />
-              <path d="M8,19a3,3,0,0,1-3-3" fill="none" stroke="currentColor" />
             </svg>
           </div>
-          <h6 className="mb-2 font-semibold leading-5">First contact</h6>
+          <h6 className="mb-2 font-semibold leading-5">General repairs</h6>
           <p className="mb-3 text-sm text-gray-900">
-            For those who have seen the Earth from space or in dreams.
+            For when you just need your bike to be generally fixed.
           </p>
           <ul className="mb-4 -ml-1 space-y-2">
             <li className="flex items-start">
               <span className="mr-1">
-                <svg
-                  className="w-5 h-5 mt-px text-deep-purple-accent-400"
-                  stroke="currentColor"
-                  viewBox="0 0 52 52"
-                >
-                  <polygon
-                    strokeWidth="4"
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                    fill="none"
-                    points="29 13 14 29 25 29 23 39 38 23 27 23"
-                  />
-                </svg>
+                <CheckMark />
               </span>
-              Listen
+              Pro Wash & Lube
             </li>
             <li className="flex items-start">
               <span className="mr-1">
-                <svg
-                  className="w-5 h-5 mt-px text-deep-purple-accent-400"
-                  stroke="currentColor"
-                  viewBox="0 0 52 52"
-                >
-                  <polygon
-                    strokeWidth="4"
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                    fill="none"
-                    points="29 13 14 29 25 29 23 39 38 23 27 23"
-                  />
-                </svg>
+                <CheckMark />
               </span>
-              Communicate
+              Break Bleeds
             </li>
             <li className="flex items-start">
               <span className="mr-1">
-                <svg
-                  className="w-5 h-5 mt-px text-deep-purple-accent-400"
-                  stroke="currentColor"
-                  viewBox="0 0 52 52"
-                >
-                  <polygon
-                    strokeWidth="4"
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                    fill="none"
-                    points="29 13 14 29 25 29 23 39 38 23 27 23"
-                  />
-                </svg>
+                <CheckMark />
               </span>
-              Run
+              Tubes & Tyres
             </li>
           </ul>
         </div>
