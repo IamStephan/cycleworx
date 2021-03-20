@@ -6,11 +6,11 @@ const HeroSection = () => {
   return (
     <section className="relative mb-16">
       <StaticImage
-        src="../../assets/images/hero.jpg"
+        src="../../assets/images/homepage/hero.jpg"
         alt=""
         className="absolute object-cover w-full h-full"
         objectFit="cover"
-        // objectPosition="25%"
+        placeholder="blurred"
         style={{
           zIndex: -50,
         }}
