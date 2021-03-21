@@ -2,100 +2,77 @@ import React from "react"
 
 const AboutSection = () => {
   return (
-    <div className="px-4 py-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-20">
-      <div className="flex flex-col mb-6 lg:justify-between lg:flex-row md:mb-8">
-        <h2 className="max-w-lg mb-5 font-sans text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl sm:leading-none md:mb-6 group">
-          <span className="inline-block mb-1 sm:mb-4">
-            There is no must in art
-            <br className="hidden md:block" />
-            because art is free.
-          </span>
-          <div className="h-1 ml-auto duration-300 origin-left transform bg-deep-purple-accent-400 scale-x-30 group-hover:scale-x-100" />
+    <section className="px-4 py-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-20">
+      <div className="max-w-xl mb-10 md:mx-auto sm:text-center lg:max-w-2xl md:mb-12">
+        <h2 className="max-w-lg mb-6 font-sans text-3xl font-bold leading-none tracking-tight text-gray-900 sm:text-4xl md:mx-auto">
+          A quick guide to our{" "}
+          <span className="inline-block text-green-600">journey</span>
         </h2>
-        <p className="text-gray-700 lg:text-sm lg:max-w-md">
-          "Class is dead", says Foucault; however, according to Reicher, it is
-          not so much class that is dead, but rather the absurdity, and some
-          would say the paradigm, of class. However, the subject is interpolated
-          into a postpatriarchialist dialectic theory that includes
-          consciousness as a totality.
+        <p className="text-base text-gray-700 md:text-lg">
+          We are a growing business, adapting to the times to make sure our
+          customers experience the best there is to the cycling community.
         </p>
       </div>
-      <div className="grid gap-6 row-gap-5 mb-8 lg:grid-cols-4 sm:row-gap-6 sm:grid-cols-2">
-        <a href="/" aria-label="View Item">
-          <div className="relative overflow-hidden transition duration-200 transform rounded shadow-lg hover:-translate-y-2 hover:shadow-2xl">
-            <img
-              className="object-cover w-full h-56 md:h-64 xl:h-80"
-              src="https://images.pexels.com/photos/3184311/pexels-photo-3184311.jpeg?auto=compress&amp;cs=tinysrgb&amp;dpr=2&amp;w=500"
-              alt=""
-            />
-            <div className="absolute inset-0 px-6 py-4 transition-opacity duration-200 bg-black bg-opacity-75 opacity-0 hover:opacity-100">
-              <p className="mb-4 text-lg font-bold text-gray-100">Mona Lisa</p>
-              <p className="text-sm tracking-wide text-gray-300">
-                Painted between 1503 and 1517, Da Vinci’s alluring portrait has
-                been dogged by two questions since the day it was made: Who’s
-                the subject and why is she smiling?
-              </p>
-            </div>
+      <div className="relative grid gap-8 row-gap-5 mb-8 md:row-gap-8 lg:grid-cols-4 sm:grid-cols-2">
+        <div className="absolute inset-0 flex items-center justify-center sm:hidden lg:flex">
+          <div className="w-px h-full bg-gray-300 lg:w-full lg:h-px" />
+        </div>
+        <div className="p-5 duration-300 transform bg-white border rounded shadow-sm hover:-translate-y-2">
+          <div className="mb-2">
+            <p className="inline-flex items-center justify-center px-1 mb-1 font-bold text-green-800 rounded flex-nowrap bg-green-50">
+              2014-2015
+            </p>
+            <p className="flex-1 text-lg font-bold leading-5">
+              Humble Beginnings
+            </p>
           </div>
-        </a>
-        <a href="/" aria-label="View Item">
-          <div className="relative overflow-hidden transition duration-200 transform rounded shadow-lg hover:-translate-y-2 hover:shadow-2xl">
-            <img
-              className="object-cover w-full h-56 md:h-64 xl:h-80"
-              src="https://images.pexels.com/photos/3184338/pexels-photo-3184338.jpeg?auto=compress&amp;cs=tinysrgb&amp;dpr=2&amp;h=750&amp;w=1260"
-              alt=""
-            />
-            <div className="absolute inset-0 px-6 py-4 transition-opacity duration-200 bg-black bg-opacity-75 opacity-0 hover:opacity-100">
-              <p className="mb-4 text-lg font-bold text-gray-100">
-                The Starry Night
-              </p>
-              <p className="text-sm tracking-wide text-gray-300">
-                Vincent Van Gogh’s most popular painting, The Starry Night was
-                created by Van Gogh at the asylum in Saint-Rémy, where he’d
-                committed himself in 1889.
-              </p>
-            </div>
+          <p className="text-sm text-gray-900">
+            Starting of as just an idea in 90's, Cycleworx Langebaan ventured
+            into the bicycle industry in just a garage.
+          </p>
+        </div>
+        <div className="p-5 duration-300 transform bg-white border rounded shadow-sm hover:-translate-y-2">
+          <div className="mb-2">
+            <p className="inline-flex items-center justify-center px-1 mb-1 font-bold text-green-800 rounded flex-nowrap bg-green-50">
+              2015-2018
+            </p>
+            <p className="flex-1 text-lg font-bold leading-5">
+              Expantion and Growth.
+            </p>
           </div>
-        </a>
-        <a href="/" aria-label="View Item">
-          <div className="relative overflow-hidden transition duration-200 transform rounded shadow-lg hover:-translate-y-2 hover:shadow-2xl">
-            <img
-              className="object-cover w-full h-56 md:h-64 xl:h-80"
-              src="https://images.pexels.com/photos/3184339/pexels-photo-3184339.jpeg?auto=compress&amp;cs=tinysrgb&amp;dpr=2&amp;h=750&amp;w=1260"
-              alt=""
-            />
-            <div className="absolute inset-0 px-6 py-4 transition-opacity duration-200 bg-black bg-opacity-75 opacity-0 hover:opacity-100">
-              <p className="mb-4 text-lg font-bold text-gray-100">The Kiss</p>
-              <p className="text-sm tracking-wide text-gray-300">
-                Opulently gilded and extravagantly patterned, The Kiss, Gustav
-                Klimt’s fin-de-siècle portrayal of intimacy, is a mix of
-                Symbolism and Vienna Jugendstil, the Austrian variant of Art
-                Nouveau.
-              </p>
-            </div>
+          <p className="text-sm text-gray-900">
+            From the support and love of the community, Cycleworx Langebaan grew
+            to match your expectations.
+          </p>
+        </div>
+        <div className="p-5 duration-300 transform bg-white border rounded shadow-sm hover:-translate-y-2">
+          <div className="mb-2">
+            <p className="inline-flex items-center justify-center px-1 mb-1 font-bold text-green-800 rounded flex-nowrap bg-green-50">
+              2018-2019
+            </p>
+            <p className="flex-1 text-lg font-bold leading-5">Established</p>
           </div>
-        </a>
-        <a href="/" aria-label="View Item">
-          <div className="relative overflow-hidden transition duration-200 transform rounded shadow-lg hover:-translate-y-2 hover:shadow-2xl">
-            <img
-              className="object-cover w-full h-56 md:h-64 xl:h-80"
-              src="https://images.pexels.com/photos/3184360/pexels-photo-3184360.jpeg?auto=compress&amp;cs=tinysrgb&amp;dpr=2&amp;h=750&amp;w=1260"
-              alt=""
-            />
-            <div className="absolute inset-0 px-6 py-4 transition-opacity duration-200 bg-black bg-opacity-75 opacity-0 hover:opacity-100">
-              <p className="mb-4 text-lg font-bold text-gray-100">
-                The Harvesters
-              </p>
-              <p className="text-sm tracking-wide text-gray-300">
-                Bruegel’s fanfare for the common man is considered one of the
-                defining works of Western art. This composition was one of six
-                created on the theme of the seasons.
-              </p>
-            </div>
+          <p className="text-sm text-gray-900">
+            Cycleworx Langebaan is now part of something much larger than just
+            cycling, a community.
+          </p>
+        </div>
+        <div className="p-5 duration-300 transform bg-white border rounded shadow-sm hover:-translate-y-2">
+          <div className="mb-2">
+            <p className="inline-flex items-center justify-center px-1 mb-1 font-bold text-green-800 rounded flex-nowrap bg-green-50">
+              2020-Now
+            </p>
+            <p className="flex-1 text-lg font-bold leading-5">
+              The fight against nature
+            </p>
           </div>
-        </a>
+          <p className="text-sm text-gray-900">
+            Nothing is stopping us from making sure your bike is in top-notch
+            shape for enjoyable rides.
+          </p>
+        </div>
       </div>
-    </div>
+    </section>
   )
 }
 
