@@ -3,6 +3,7 @@ module.exports = {
     title: "Cycleworx Langebaan",
   },
   plugins: [
+    "gatsby-plugin-preact",
     "gatsby-plugin-tsconfig-paths",
     "gatsby-plugin-postcss",
     "gatsby-plugin-image",
