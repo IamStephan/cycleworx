@@ -1,63 +1,61 @@
 import React from "react"
+import { Link } from "gatsby"
 
 const CTASection = () => {
   return (
-    <div className="px-4 py-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-20">
-      <div className="flex flex-col max-w-screen-lg overflow-hidden bg-white border rounded shadow-sm lg:flex-row sm:mx-auto">
-        <div className="relative lg:w-1/2">
-          <img
-            src="https://images.pexels.com/photos/3182812/pexels-photo-3182812.jpeg?auto=compress&amp;cs=tinysrgb&amp;dpr=2&amp;h=750&amp;w=1260"
-            alt=""
-            className="object-cover w-full lg:absolute h-80 lg:h-full"
-          />
-          <svg
-            className="absolute top-0 right-0 hidden h-full text-white lg:inline-block"
-            viewBox="0 0 20 104"
-            fill="currentColor"
-          >
-            <polygon points="17.3036738 5.68434189e-14 20 5.68434189e-14 20 104 0.824555778 104" />
-          </svg>
-        </div>
-        <div className="flex flex-col justify-center p-8 bg-white lg:p-16 lg:pl-10 lg:w-1/2">
-          <div>
-            <p className="inline-block px-3 py-px mb-4 text-xs font-semibold tracking-wider text-teal-900 uppercase rounded-full bg-teal-accent-400">
-              Brand new
-            </p>
-          </div>
-          <h5 className="mb-3 text-3xl font-extrabold leading-none sm:text-4xl">
-            Your new ideal style
-          </h5>
-          <p className="mb-5 text-gray-800">
-            <span className="font-bold">Lorem ipsum</span> dolor sit amet,
-            consectetur adipiscing elit. Etiam sem neque, molestie sit amet
-            venenatis et, dignissim ut erat. Sed aliquet velit id dui eleifend,
-            sed consequat odio sollicitudin.
-          </p>
-          <div className="flex items-center">
-            <button
-              type="submit"
-              className="inline-flex items-center justify-center h-12 px-6 mr-6 font-medium tracking-wide text-white transition duration-200 rounded shadow-md bg-deep-purple-accent-400 hover:bg-deep-purple-accent-700 focus:shadow-outline focus:outline-none"
+    <section className="px-4 py-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-20">
+      <div className="max-w-screen-sm sm:text-center sm:mx-auto">
+        <Link
+          to="/contact"
+          aria-label="View"
+          className="inline-block mb-5 rounded-full sm:mx-auto"
+        >
+          <div className="flex items-center justify-center w-16 h-16 mb-4 rounded-full bg-green-50">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              viewBox="0 0 24 24"
+              className="w-10 h-10 text-green-800"
             >
-              Get started
-            </button>
-            <a
-              href="/"
-              aria-label=""
-              className="inline-flex items-center font-semibold transition-colors duration-200 text-deep-purple-accent-400 hover:text-deep-purple-800"
-            >
-              Learn More
-              <svg
-                className="inline-block w-3 ml-2"
+              <path fill="none" d="M0 0h24v24H0z" />
+              <path
                 fill="currentColor"
-                viewBox="0 0 12 12"
-              >
-                <path d="M9.707,5.293l-5-5A1,1,0,0,0,3.293,1.707L7.586,6,3.293,10.293a1,1,0,1,0,1.414,1.414l5-5A1,1,0,0,0,9.707,5.293Z" />
-              </svg>
-            </a>
+                d="M7.291 20.824L2 22l1.176-5.291A9.956 9.956 0 0 1 2 12C2 6.477 6.477 2 12 2s10 4.477 10 10-4.477 10-10 10a9.956 9.956 0 0 1-4.709-1.176zm.29-2.113l.653.35A7.955 7.955 0 0 0 12 20a8 8 0 1 0-8-8c0 1.334.325 2.618.94 3.766l.349.653-.655 2.947 2.947-.655zM7 12h2a3 3 0 0 0 6 0h2a5 5 0 0 1-10 0z"
+              />
+            </svg>
           </div>
+        </Link>
+        <h2 className="mb-4 font-sans text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl sm:leading-none">
+          Let us fix your bicycle
+        </h2>
+        <p className="text-base text-gray-700 md:text-lg sm:px-4">
+          Give us a call and start experiencing the Cycleworx Langebaan
+          treatment first hand. Or come give us a visit at the shop.
+        </p>
+        <hr className="w-full my-8 border-gray-300" />
+        <div className="flex items-center sm:justify-center">
+          <Link
+            to="/contact"
+            className="inline-flex items-center justify-center h-12 px-6 mr-6 font-medium tracking-wide text-white transition duration-200 bg-green-700 rounded shadow-lg hover:bg-green-500 focus:shadow-outline focus:outline-none"
+          >
+            Contact Us
+          </Link>
+          <Link
+            to="/about"
+            aria-label=""
+            className="inline-flex items-center font-semibold text-green-700 transition-colors duration-200 hover:text-green-900"
+          >
+            Get to know us
+            <svg
+              className="inline-block w-3 ml-2"
+              fill="currentColor"
+              viewBox="0 0 12 12"
+            >
+              <path d="M9.707,5.293l-5-5A1,1,0,0,0,3.293,1.707L7.586,6,3.293,10.293a1,1,0,1,0,1.414,1.414l5-5A1,1,0,0,0,9.707,5.293Z" />
+            </svg>
+          </Link>
         </div>
       </div>
-    </div>
+    </section>
   )
 }
 
