@@ -4,6 +4,7 @@ import HeroSection from "@sections/hero"
 import BrandLogosSection from "@sections/brand_logos"
 import ServicesSection from "@sections/services"
 import TeamSection from "@sections/team"
+import SocialProofSection from "@sections/social_proof"
 import CTASection from "@sections/cta"
 
 const IndexPage: React.FC = () => {
@@ -13,6 +14,7 @@ const IndexPage: React.FC = () => {
       <BrandLogosSection />
       <ServicesSection />
       <TeamSection />
+      <SocialProofSection />
       <CTASection />
     </Page>
   )
