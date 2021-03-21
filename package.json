@@ -15,6 +15,7 @@
     "clean": "gatsby clean"
   },
   "dependencies": {
+    "@fontsource/ubuntu": "^4.2.2",
     "@tailwindcss/line-clamp": "^0.2.0",
     "classnames": "^2.2.6",
     "gatsby-plugin-preact": "^5.1.0",
