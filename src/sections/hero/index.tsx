@@ -8,11 +8,12 @@ const HeroSection = () => {
       <StaticImage
         src="../../assets/images/homepage/hero.jpg"
         alt="Bicycle athlete jumpinng of small ramp in the forest."
-        className="absolute object-cover w-full h-full"
+        className="absolute w-full h-full"
         objectFit="cover"
         placeholder="blurred"
         style={{
           zIndex: -50,
+          position: "absolute",
         }}
       />
       <div
