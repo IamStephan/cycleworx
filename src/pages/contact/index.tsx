@@ -5,7 +5,10 @@ import FAQSection from "@sections/faq"
 
 const ContactPage = () => {
   return (
-    <Page>
+    <Page
+      title="Contact Us"
+      description="Cycleworx langebaan contact details and frequently asked questions."
+    >
       <ContactSection />
       <FAQSection />
     </Page>

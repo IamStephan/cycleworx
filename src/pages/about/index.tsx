@@ -5,7 +5,10 @@ import TeamSection from "@sections/team"
 
 const AboutPage = () => {
   return (
-    <Page>
+    <Page
+      title="About Us"
+      description="A brief overview of Cycleworx Langebaan's journey and its team of professionals."
+    >
       <AboutSection />
       <TeamSection />
     </Page>

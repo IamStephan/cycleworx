@@ -9,7 +9,7 @@ import CTASection from "@sections/cta"
 
 const IndexPage: React.FC = () => {
   return (
-    <Page isNavTransparent={true}>
+    <Page isNavTransparent={true} title="" description="">
       <HeroSection />
       <BrandLogosSection />
       <ServicesSection />
