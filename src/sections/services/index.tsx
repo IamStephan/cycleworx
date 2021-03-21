@@ -18,7 +18,7 @@ const CheckMark: React.FC = () => {
 
 const ServicesSection = () => {
   return (
-    <div className="px-4 py-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-20">
+    <section className="px-4 py-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-20">
       <div className="flex flex-col mb-6 lg:flex-row md:mb-10">
         <div className="lg:w-1/2">
           <h2 className="max-w-md mb-6 font-sans text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl sm:leading-none xl:max-w-lg">
@@ -151,7 +151,7 @@ const ServicesSection = () => {
             <svg
               xmlns="http://www.w3.org/2000/svg"
               viewBox="0 0 24 24"
-              className="text-green-900 w-7 h-7"
+              className="text-green-800 w-7 h-7"
             >
               <path fill="none" d="M0 0h24v24H0z" />
               <path
@@ -161,7 +161,7 @@ const ServicesSection = () => {
             </svg>
           </div>
           <h6 className="mb-2 font-semibold leading-5">General repairs</h6>
-          <p className="mb-3 text-sm text-gray-900">
+          <p className="mb-3 text-sm text-gray-800">
             For when you just need your bike to be generally fixed.
           </p>
           <ul className="mb-4 -ml-1 space-y-2">
@@ -186,7 +186,7 @@ const ServicesSection = () => {
           </ul>
         </div>
       </div>
-    </div>
+    </section>
   )
 }
 

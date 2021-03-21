@@ -98,7 +98,7 @@ const HeroSection = () => {
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 viewBox="0 0 24 24"
-                className="w-8 h-8 text-green-900"
+                className="w-8 h-8 text-green-800"
               >
                 <path fill="none" d="M0 0h24v24H0z" />
                 <path
@@ -114,7 +114,7 @@ const HeroSection = () => {
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 viewBox="0 0 24 24"
-                className="w-8 h-8 text-green-900"
+                className="w-8 h-8 text-green-800"
               >
                 <path fill="none" d="M0 0h24v24H0z" />
                 <path
@@ -132,7 +132,7 @@ const HeroSection = () => {
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 viewBox="0 0 24 24"
-                className="text-green-900 w-7 h-7"
+                className="text-green-800 w-7 h-7"
               >
                 <path fill="none" d="M0 0h24v24H0z" />
                 <path
