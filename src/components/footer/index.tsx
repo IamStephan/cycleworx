@@ -13,19 +13,15 @@ const Footer = () => {
             className="inline-flex items-center"
           >
             <svg
-              className="w-8 text-green-700"
+              xmlns="http://www.w3.org/2000/svg"
               viewBox="0 0 24 24"
-              strokeLinejoin="round"
-              strokeWidth="2"
-              strokeLinecap="round"
-              strokeMiterlimit="10"
-              stroke="currentColor"
-              fill="none"
+              className="w-8 text-green-600"
             >
-              <rect x="3" y="1" width="7" height="12" />
-              <rect x="3" y="17" width="7" height="6" />
-              <rect x="14" y="1" width="7" height="6" />
-              <rect x="14" y="11" width="7" height="12" />
+              <path fill="none" d="M0 0h24v24H0z" />
+              <path
+                fill="currentColor"
+                d="M5.5 21a4.5 4.5 0 1 1 0-9 4.5 4.5 0 0 1 0 9zm0-3a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3zm13 3a4.5 4.5 0 1 1 0-9 4.5 4.5 0 0 1 0 9zm0-3a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3zm-6.969-8.203L13 12v6h-2v-5l-2.719-2.266A2 2 0 0 1 8 7.671l2.828-2.828a2 2 0 0 1 2.829 0l1.414 1.414a6.969 6.969 0 0 0 3.917 1.975l-.01 2.015a8.962 8.962 0 0 1-5.321-2.575L11.53 9.797zM16 5a2 2 0 1 1 0-4 2 2 0 0 1 0 4z"
+              />
             </svg>
             <span className="ml-2 text-xl font-bold tracking-wide text-gray-800">
               Cycleworx Langebaan
@@ -35,7 +31,7 @@ const Footer = () => {
       </section>
       <div className="flex flex-col justify-between pt-4 pb-10 border-t sm:flex-row">
         <p className="text-sm text-gray-700">
-          © Copyright 2020 Lorem Inc. All rights reserved.
+          © Copyright 2021 Lorem Inc. All rights reserved.
         </p>
         <div className="flex items-center mt-4 space-x-4 sm:mt-0">
           <a
