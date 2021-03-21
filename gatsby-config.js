@@ -1,6 +1,9 @@
 module.exports = {
   siteMetadata: {
     title: "Cycleworx Langebaan",
+    titleTemplate: "%s | Bicycle Retailer and Workshop",
+    description: "Bicycle retailer and workshop located in langebaan.",
+    url: "cycleworxlangebaan.com",
   },
   plugins: [
     "gatsby-plugin-preact",
