@@ -82,7 +82,7 @@ const TeamSection = () => {
           <StaticImage
             className="object-cover w-20 h-20 mr-4 rounded-full shadow"
             src="../../assets/images/homepage/team-4.jpg"
-            alt="Stephan Burger"
+            alt="Stephan"
           />
           <div className="flex flex-col justify-center">
             <p className="text-lg font-bold">Stephan</p>
