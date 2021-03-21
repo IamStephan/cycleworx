@@ -3,51 +3,60 @@ import { StaticImage } from "gatsby-plugin-image"
 
 import "./styles.css"
 
-const ImageSet: React.FC = () => {
+const Images: React.FC = () => {
   return (
-    <div className="flex flex-row flex-shrink-0 flex-grow-1 flex-nowrap imgSet">
+    <>
       <StaticImage
         placeholder="blurred"
         className="flex-shrink-0 ml-10 flex-grow-1"
         src="../../assets/images/homepage/brand-1.png"
-        alt=""
+        alt="Omnico"
       />
       <StaticImage
         placeholder="blurred"
         className="flex-shrink-0 ml-10 flex-grow-1"
         src="../../assets/images/homepage/brand-2.png"
-        alt=""
+        alt="Sram"
       />
       <StaticImage
         placeholder="blurred"
         className="flex-shrink-0 ml-10 flex-grow-1"
         src="../../assets/images/homepage/brand-3.png"
-        alt=""
+        alt="Silverback"
       />
       <StaticImage
         placeholder="blurred"
         className="flex-shrink-0 ml-10 flex-grow-1"
         src="../../assets/images/homepage/brand-4.png"
-        alt=""
+        alt="Giant"
       />
       <StaticImage
         placeholder="blurred"
         className="flex-shrink-0 ml-10 flex-grow-1"
         src="../../assets/images/homepage/brand-5.png"
-        alt=""
+        alt="Schwinn"
       />
       <StaticImage
         placeholder="blurred"
         className="flex-shrink-0 ml-10 flex-grow-1"
         src="../../assets/images/homepage/brand-6.png"
-        alt=""
+        alt="Titan"
       />
       <StaticImage
         placeholder="blurred"
         className="flex-shrink-0 ml-10 flex-grow-1"
         src="../../assets/images/homepage/brand-7.png"
-        alt=""
+        alt="Shimano"
       />
+    </>
+  )
+}
+
+const ImageSet: React.FC = () => {
+  return (
+    <div className="flex flex-row flex-shrink-0 flex-grow-1 flex-nowrap imgSet">
+      <Images />
+      <Images />
     </div>
   )
 }
@@ -72,7 +81,6 @@ const BrandLogosSection = () => {
        * and not over loading with to many images
        */}
       <div className="flex flex-row w-full overflow-hidden flex-nowrap logosContainer">
-        <ImageSet />
         <ImageSet />
       </div>
     </section>

@@ -4,11 +4,11 @@
   flex-direction: row;
 }
 
-.imgSet {
+.logosContainer .imgSet {
   animation: rotaingImageSet 20s linear infinite;
 }
 
-.imgSet img {
+.logosContainer .imgSet img {
   filter: grayscale(1);
 }
 
@@ -22,6 +22,6 @@
   }
 
   100% {
-    transform: translateX(-100%);
+    transform: translateX(-50%);
   }
 }
