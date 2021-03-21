@@ -19,7 +19,7 @@ const Navbar: React.FC<Props> = ({ isTransparent }) => {
         <div className="relative flex items-center justify-between">
           <Link
             to="/"
-            aria-label="Cycleworx Langebaan"
+            aria-label="Go home"
             title="Cycleworx Langebaan"
             className="inline-flex items-center"
           >

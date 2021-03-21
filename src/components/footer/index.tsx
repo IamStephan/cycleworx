@@ -9,7 +9,7 @@ const Footer = () => {
           <Link
             to="/"
             aria-label="Go home"
-            title="Company"
+            title="Cycleworx Langebaan"
             className="inline-flex items-center"
           >
             <svg
