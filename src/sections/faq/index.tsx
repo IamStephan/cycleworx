@@ -6,8 +6,8 @@ const FAQSection = () => {
       <div className="max-w-xl sm:mx-auto lg:max-w-2xl">
         <div className="max-w-xl mb-10 md:mx-auto sm:text-center lg:max-w-2xl md:mb-12">
           <div>
-            <p className="inline-block px-3 py-px mb-4 text-xs font-semibold tracking-wider text-teal-900 uppercase rounded-full bg-teal-accent-400">
-              Brand new
+            <p className="inline-block px-3 py-px mb-4 text-xs font-semibold tracking-wider text-green-900 uppercase rounded-full bg-green-accent-400">
+              FAQ
             </p>
           </div>
           <h2 className="max-w-lg mb-6 font-sans text-3xl font-bold leading-none tracking-tight text-gray-900 sm:text-4xl md:mx-auto">
@@ -15,7 +15,7 @@ const FAQSection = () => {
               <svg
                 viewBox="0 0 52 24"
                 fill="currentColor"
-                className="absolute top-0 left-0 z-0 hidden w-32 -mt-8 -ml-20 text-blue-gray-100 lg:w-32 lg:-ml-28 lg:-mt-10 sm:block"
+                className="absolute top-0 left-0 z-0 hidden w-32 -mt-8 -ml-20 text-green-100 lg:w-32 lg:-ml-28 lg:-mt-10 sm:block"
               >
                 <defs>
                   <pattern
@@ -34,13 +34,13 @@ const FAQSection = () => {
                   height="24"
                 />
               </svg>
-              <span className="relative">The</span>
+              <span className="relative">Answering</span>
             </span>{" "}
-            quick, brown fox jumps over a lazy dog
+            your most asked questions
           </h2>
           <p className="text-base text-gray-700 md:text-lg">
-            Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-            accusantium doloremque rem aperiam, eaque ipsa quae.
+            You can always give us a call if you have a question and we did not
+            include it here.
           </p>
         </div>
       </div>
@@ -49,83 +49,96 @@ const FAQSection = () => {
           <div className="space-y-8">
             <div>
               <p className="mb-4 text-xl font-medium">
-                The quick, brown fox jumps over a lazy dog?
+                Can I book-in my bicycle?
               </p>
               <p className="text-gray-700">
-                Space, the final frontier. These are the voyages of the Starship
-                Enterprise. Its five-year mission: to explore strange new
-                worlds.
+                We work on a "first-come first-serve" basis. You bring in you
+                bike and we book it in, then we work our way up the queue.
                 <br />
                 <br />
-                Many say exploration is part of our destiny, but it’s actually
-                our duty to future generations.
+                The earlier you bring your bike the faster you receive your
+                bike.
               </p>
             </div>
             <div>
               <p className="mb-4 text-xl font-medium">
-                The first mate and his Skipper too will do?
+                I brought in my bike, how long will it take?
               </p>
               <p className="text-gray-700">
-                Well, the way they make shows is, they make one show. That
-                show's called a pilot.
+                It depends on the work that needs to be done on the bike and in
+                what season we're in. In busy seasons (Holidays and Decembers)
+                our throughput is expected to be slower due to backlog.
                 <br />
                 <br />
-                Then they show that show to the people who make shows, and on
-                the strength of that one show they decide if they're going to
-                make more shows. Some pilots get picked and become television
-                programs.Some don't, become nothing. She starred in one of the
-                ones that became nothing.
+                Generally speaking we can get your bike back to you in 2-3 work
+                days. When we are in season this can take as long as a week
+                (rarely the case). We always strive to get your bike back to you
+                as fast as possible.
               </p>
             </div>
             <div>
               <p className="mb-4 text-xl font-medium">
-                Is the Space Pope reptilian!?
+                Do you guys do rentals, how does that work?
               </p>
               <p className="text-gray-700">
-                A flower in my garden, a mystery in my panties. Heart attack
-                never stopped old Big Bear. I didn't even know we were calling
-                him Big Bear.
+                Yes! We have about 7 rentals you can rent from us. We cater for
+                the general public so please <u>do not expect</u> a high-end
+                bike.
+                <br />
+                <br />
+                When you rent a bike from us we will need your ID and a deposit.
+                Our rates are based on a per-day basis and payments are done in
+                cash only.
               </p>
             </div>
           </div>
           <div className="space-y-8">
             <div>
               <p className="mb-4 text-xl font-medium">
-                How much money you got on you?
+                Can I get a quote to fix my bike?
               </p>
               <p className="text-gray-700">
-                The first mate and his Skipper too will do their very best to
-                make the others comfortable in their tropic island nest.
-                <br />
-                <br />
-                Michael Knight a young loner on a crusade to champion the cause
-                of the innocent. The helpless. The powerless in a world of
-                criminals who operate above the law. Here he comes Here comes
-                Speed Racer. He's a demon on wheels.
+                Giving quotes are hard when there is a big queue. What we
+                usaully do is ask you to bring in your bike. This gives us the
+                opportunity to give you an <b>estimate</b> on the costs required
+                to fix your bike based on your specific needs.
               </p>
             </div>
             <div>
               <p className="mb-4 text-xl font-medium">
-                Galaxies Orion's sword globular star cluster?
+                Can I bring my bike in for a quick service?
               </p>
               <p className="text-gray-700">
-                A business big enough that it could be listed on the NASDAQ goes
-                belly up. Disappears!
+                It would be better if you bring in your bike to allow us to
+                inspect it. Usually all the bike needs is some form of
+                adjustment with a <b>Pro wash and lube.</b>
                 <br />
                 <br />
-                It ceases to exist without me. No, you clearly don't know who
-                you're talking to, so let me clue you in.
+                If your bike needs a full service we'll tell you and adivse you
+                on what to do next.
               </p>
             </div>
             <div>
               <p className="mb-4 text-xl font-medium">
-                When has justice ever been as simple as a rule book?
+                Do you guys buy second hand bikes?
               </p>
               <p className="text-gray-700">
-                This is not about revenge. This is about justice. A lot of
-                things can change in twelve years, Admiral. Well, that's
-                certainly good to know. About four years. I got tired of hearing
-                how young I looked.
+                When you have a bike that you want to sell, you can bring the
+                bike in. This allows us to see what the bike is worth. We put
+                the bike on the floor for you and our trained sales team sells
+                the bike on your behalf. The shop takes a commission only after
+                the bike has been sold.
+                <br />
+                <br />
+                The retail price of the bike is ultimatly based on what you end
+                up deciding, we do give you advice on what the best price for
+                the bike will be.
+                <br />
+                <br />
+                <b>
+                  All costs required to fix the bike must be covered by the
+                  owner of the bike.
+                </b>
               </p>
             </div>
           </div>
