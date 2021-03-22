@@ -26,7 +26,7 @@ const Footer = () => {
       </section>
       <div className="flex flex-col justify-between pt-4 pb-10 border-t sm:flex-row">
         <p className="text-sm text-gray-700">
-          © Copyright 2021 Lorem Inc. All rights reserved.
+          © Copyright 2021 Cycleworx Langebaan. All rights reserved.
         </p>
         <div className="flex items-center mt-4 space-x-4 sm:mt-0">
           <a
