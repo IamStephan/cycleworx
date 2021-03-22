@@ -17,12 +17,7 @@ const Navbar: React.FC<Props> = ({ isTransparent }) => {
     >
       <nav className="px-4 py-5 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8">
         <div className="relative flex items-center justify-between">
-          <Link
-            to="/"
-            aria-label="Go home"
-            title="Cycleworx Langebaan"
-            className="inline-flex items-center"
-          >
+          <Link to="/" className="inline-flex items-center">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               viewBox="0 0 24 24"
@@ -53,8 +48,6 @@ const Navbar: React.FC<Props> = ({ isTransparent }) => {
               <Link
                 to="/about"
                 activeClassName="text-green-600"
-                aria-label="About us"
-                title="About us"
                 className={classnames(
                   "font-medium tracking-wide transition-colors duration-200",
                   {
@@ -72,8 +65,6 @@ const Navbar: React.FC<Props> = ({ isTransparent }) => {
               <Link
                 to="/contact"
                 activeClassName="text-green-600"
-                aria-label="Contact us"
-                title="Contact us"
                 className={classnames(
                   "font-medium tracking-wide transition-colors duration-200",
                   {
@@ -129,12 +120,7 @@ const Navbar: React.FC<Props> = ({ isTransparent }) => {
                 <div className="p-5 bg-white border rounded shadow-sm">
                   <div className="flex items-center justify-between mb-4">
                     <div>
-                      <Link
-                        to="/"
-                        aria-label="Cycleworx Langebaan"
-                        title="Cycleworx Langebaan"
-                        className="inline-flex items-center"
-                      >
+                      <Link to="/" className="inline-flex items-center">
                         <svg
                           className="w-8 text-green-accent-400"
                           viewBox="0 0 24 24"
@@ -177,8 +163,6 @@ const Navbar: React.FC<Props> = ({ isTransparent }) => {
                         <Link
                           to="/about"
                           activeClassName="text-green-accent-400"
-                          aria-label="About us"
-                          title="About us"
                           className="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-green-accent-400"
                         >
                           About us
@@ -188,8 +172,6 @@ const Navbar: React.FC<Props> = ({ isTransparent }) => {
                         <Link
                           to="/contact"
                           activeClassName="text-green-accent-400"
-                          aria-label="Contact us"
-                          title="Contact us"
                           className="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-green-accent-400"
                         >
                           Contact us

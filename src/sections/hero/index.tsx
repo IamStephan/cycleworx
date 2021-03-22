@@ -67,16 +67,12 @@ const HeroSection = () => {
           <div className="flex items-center sm:justify-center">
             <Link
               to="/contact"
-              aria-label="Contact us"
-              title="Contact us"
               className="inline-flex items-center justify-center h-12 px-6 mr-6 font-medium tracking-wide text-white transition duration-200 bg-green-700 rounded shadow-lg hover:bg-green-500 focus:shadow-outline focus:outline-none"
             >
               Contact Us
             </Link>
             <Link
               to="/about"
-              aria-label="About us"
-              title="About us"
               className="inline-flex items-center font-semibold text-gray-400 transition-colors duration-200 hover:text-green-700"
             >
               Get to know us

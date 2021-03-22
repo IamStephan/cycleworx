@@ -6,12 +6,7 @@ const Footer = () => {
     <footer className="px-4 pt-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8">
       <section className="grid gap-10 row-gap-1 mb-4 sm:grid-cols-2 lg:grid-cols-4">
         <div className="sm:col-span-2">
-          <Link
-            to="/"
-            aria-label="Go home"
-            title="Cycleworx Langebaan"
-            className="inline-flex items-center"
-          >
+          <Link to="/" className="inline-flex items-center">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               viewBox="0 0 24 24"
@@ -35,7 +30,9 @@ const Footer = () => {
         </p>
         <div className="flex items-center mt-4 space-x-4 sm:mt-0">
           <a
-            href="/"
+            target="_blank"
+            title="Facebook"
+            href="https://www.facebook.com/CycleWorxLangebaan"
             className="text-gray-600 transition-colors duration-300 hover:text-green-700"
           >
             <svg viewBox="0 0 24 24" fill="currentColor" className="h-5">
