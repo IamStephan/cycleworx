@@ -30,6 +30,7 @@ const Footer = () => {
         </p>
         <div className="flex items-center mt-4 space-x-4 sm:mt-0">
           <a
+            rel="noopener"
             target="_blank"
             title="Facebook"
             href="https://www.facebook.com/CycleWorxLangebaan"
