@@ -83,7 +83,7 @@ const ServicesSection = () => {
           </div>
           <h6 className="mb-2 font-semibold leading-5">Bike assemblies</h6>
           <p className="mb-3 text-sm text-gray-900">
-            We take the hastle away and assemble your bike as it's meant to be.
+            We take the hassle away and assemble your bike as it's meant to be.
           </p>
           <ul className="mb-4 -ml-1 space-y-2">
             <li className="flex items-start">

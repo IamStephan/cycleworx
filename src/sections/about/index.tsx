@@ -37,7 +37,7 @@ const AboutSection = () => {
               2015-2018
             </p>
             <p className="flex-1 text-lg font-bold leading-5">
-              Expantion and Growth.
+              Expansion and Growth.
             </p>
           </div>
           <p className="text-sm text-gray-900">

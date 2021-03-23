@@ -170,7 +170,7 @@ const FAQSection = () => {
                 </p>
                 <p className="text-gray-700">
                   Giving quotes are hard when there is a big queue. What we
-                  usaully do is ask you to bring in your bike. This gives us the
+                  usually do is ask you to bring in your bike. This gives us the
                   opportunity to give you an <b>estimate</b> on the costs
                   required to fix your bike based on your specific needs.
                 </p>
@@ -185,7 +185,7 @@ const FAQSection = () => {
                   adjustment with a <b>Pro wash and lube.</b>
                   <br />
                   <br />
-                  If your bike needs a full service we'll tell you and adivse
+                  If your bike needs a full service we'll tell you and advice
                   you on what to do next.
                 </p>
               </div>
@@ -201,9 +201,9 @@ const FAQSection = () => {
                   after the bike has been sold.
                   <br />
                   <br />
-                  The retail price of the bike is ultimatly based on what you
-                  end up deciding, we do give you advice on what the best price
-                  for the bike will be.
+                  The retail price of the bike is ultimately based on what you
+                  end up deciding, we do give you advice on what the best retail
+                  price for the bike will be.
                   <br />
                   <br />
                   <b>
