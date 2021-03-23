@@ -4,7 +4,7 @@ import { Link } from "gatsby"
 const Footer = () => {
   return (
     <footer className="px-4 pt-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8">
-      <section className="grid gap-10 row-gap-1 mb-4 sm:grid-cols-2 lg:grid-cols-4">
+      <div className="grid gap-10 row-gap-1 mb-4 sm:grid-cols-2 lg:grid-cols-4">
         <div className="sm:col-span-2">
           <Link to="/" className="inline-flex items-center">
             <svg
@@ -23,7 +23,7 @@ const Footer = () => {
             </span>
           </Link>
         </div>
-      </section>
+      </div>
       <div className="flex flex-col justify-between pt-4 pb-10 border-t sm:flex-row">
         <p className="text-sm text-gray-700">
           © Copyright 2021 Cycleworx Langebaan. All rights reserved.
