@@ -31,6 +31,17 @@ const ContactSection = () => {
           <div>
             <h6 className="mb-2 font-semibold leading-5">Get in touch</h6>
             <div className="flex">
+              <p className="mr-1 text-gray-800">Shop:</p>
+              <a
+                href="tel:022 634 0007"
+                aria-label="Our phone"
+                title="Our phone"
+                className="text-green-600 transition-colors duration-300 hover:text-green-800"
+              >
+                022 634 0007
+              </a>
+            </div>
+            <div className="flex">
               <p className="mr-1 text-gray-800">Phone:</p>
               <a
                 href="tel:073 7344 098"
@@ -73,9 +84,10 @@ const ContactSection = () => {
           <div>
             <h6 className="mb-2 font-semibold leading-5">Location</h6>
             <div className="flex">
-              <p className="mr-1 text-gray-800">
-                Madriko Centre Oostewal Road,
-              </p>
+              <p className="mr-1 text-gray-800">Madriko Centre</p>
+            </div>
+            <div className="flex">
+              <p className="mr-1 text-gray-800">Oostewal Road,</p>
             </div>
             <div className="flex">
               <p className="mr-1 text-gray-800">Langebaan, 7357</p>
@@ -105,6 +117,9 @@ const ContactSection = () => {
             </div>
             <div className="flex">
               <p className="mr-1 text-gray-800">Sat: 09:00 - 13:00</p>
+            </div>
+            <div className="flex">
+              <p className="mr-1 text-gray-800">Sun: CLOSED</p>
             </div>
           </div>
         </div>
