@@ -71,10 +71,10 @@ const TeamSection = () => {
           <StaticImage
             className="object-cover w-20 h-20 mr-4 rounded-full shadow"
             src="../../assets/images/homepage/team-3.jpg"
-            alt="Kyle Swanepoel"
+            alt="Gavin Nicholson"
           />
           <div className="flex flex-col justify-center">
-            <p className="text-lg font-bold">Kyle Swanepoel</p>
+            <p className="text-lg font-bold">Gavin Nicholson</p>
             <p className="text-sm text-gray-800">Mechanic</p>
           </div>
         </div>
@@ -97,17 +97,6 @@ const TeamSection = () => {
           />
           <div className="flex flex-col justify-center">
             <p className="text-lg font-bold">Tiaan</p>
-            <p className="text-sm text-gray-800">Mechanic</p>
-          </div>
-        </div>
-        <div className="flex">
-          <StaticImage
-            className="object-cover w-20 h-20 mr-4 rounded-full shadow"
-            src="../../assets/images/homepage/team-6.jpg"
-            alt="Ryan"
-          />
-          <div className="flex flex-col justify-center">
-            <p className="text-lg font-bold">Ryan</p>
             <p className="text-sm text-gray-800">Mechanic</p>
           </div>
         </div>
