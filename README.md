@@ -1,5 +1,5 @@
 
-[<img src="assets/logo.png" alt="Logo" width="80" height="80">](https://cycleworxlangebaan.com)
+[<img src="assets/logo.png" alt="Logo" width="auto" height="80">](https://cycleworxlangebaan.com)
 
 # Cycleworx Langebaan website
 
