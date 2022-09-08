@@ -74,7 +74,7 @@ const TeamSection = () => {
             alt="Gavin Nicholson"
           />
           <div className="flex flex-col justify-center">
-            <p className="text-lg font-bold">Gavin Nicholson</p>
+            <p className="text-lg font-bold">Kyle Swanepoel</p>
             <p className="text-sm text-gray-800">Mechanic</p>
           </div>
         </div>
