@@ -28,5 +28,12 @@ module.exports = {
       },
       __key: "images",
     },
+    {
+      resolve: `gatsby-plugin-umami`,
+      options: {
+        websiteId: "ee411701-fc7a-494d-ab6e-1992a9930455",
+        srcUrl: "https://web.iamstephan.dev/web-iamstephan.js",
+      },
+    },
   ],
 }
