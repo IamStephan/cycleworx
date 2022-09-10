@@ -29,6 +29,12 @@ const SEO: React.FC<Props> = ({ title, description }) => {
     <Helmet title={seo.title} titleTemplate={titleTemplate}>
       <html lang="en" />
       <meta name="description" content={seo.description} />
+      <script
+        async
+        defer
+        data-website-id="71c82372-3cf9-4aed-80ba-b9b2b392c432"
+        src="https://web.iamstephan.dev/umami.js"
+      />
 
       {seo.url && <meta property="og:url" content={seo.url} />}
 
