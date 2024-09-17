@@ -36,17 +36,25 @@ const Images: React.FC = () => {
         src="../../assets/images/homepage/brand-5.png"
         alt="Schwinn"
       />
-      <StaticImage
+
+      {/* <StaticImage
         placeholder="blurred"
         className="flex-shrink-0 ml-10 flex-grow-1"
         src="../../assets/images/homepage/brand-6.png"
         alt="Titan"
-      />
+      /> */}
+
       <StaticImage
         placeholder="blurred"
         className="flex-shrink-0 ml-10 flex-grow-1"
         src="../../assets/images/homepage/brand-7.png"
         alt="Shimano"
+      />
+      <StaticImage
+        placeholder="blurred"
+        className="flex-shrink-0 ml-10 flex-grow-1"
+        src="../../assets/images/homepage/brand-8.png"
+        alt="Titan Racing"
       />
     </>
   )
