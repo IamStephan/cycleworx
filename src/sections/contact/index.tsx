@@ -44,12 +44,12 @@ const ContactSection = () => {
             <div className="flex">
               <p className="mr-1 text-gray-800">Phone:</p>
               <a
-                href="tel:073 7344 098"
+                href="tel:078 307 7825"
                 aria-label="Our phone"
                 title="Our phone"
                 className="text-green-600 transition-colors duration-300 hover:text-green-800"
               >
-                073 7344 098
+                078 307 7825
               </a>
             </div>
             <div className="flex">
