@@ -67,7 +67,7 @@ const TeamSection = () => {
             <p className="text-sm text-gray-800">Mechanic</p>
           </div>
         </div> */}
-        <div className="flex">
+        {/* <div className="flex">
           <StaticImage
             className="object-cover w-20 h-20 mr-4 rounded-full shadow"
             src="../../assets/images/homepage/team-3.jpg"
@@ -77,7 +77,7 @@ const TeamSection = () => {
             <p className="text-lg font-bold">Kyle Swanepoel</p>
             <p className="text-sm text-gray-800">Mechanic</p>
           </div>
-        </div>
+        </div> */}
       </div>
     </section>
   )
